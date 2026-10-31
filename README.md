@@ -4,7 +4,7 @@
 
 Campusly is a student-friendly web application designed to help students discover campus events, explore student clubs, and stay connected with their college community.
 
-The platform provides a simple and interactive interface where students can explore activities, search for events, and express their interest in joining campus activities.
+The platform provides an interactive interface where students can browse upcoming events, explore different clubs, search for activities, and express their interest in campus programs.
 
 ## Features
 
@@ -12,7 +12,7 @@ The platform provides a simple and interactive interface where students can expl
 * **Search Functionality:** Search events by name, club, venue, or category.
 * **Event Filtering:** Filter events by Workshop, Tech, Culture, and Wellness.
 * **Student Clubs:** Explore different student clubs and their activities.
-* **Join Clubs:** Interact with club joining buttons.
+* **Join Clubs:** Interact with club joining options.
 * **Event Interest:** Mark yourself as interested in upcoming events.
 * **Responsive Design:** User-friendly interface for desktop and mobile devices.
 
@@ -46,35 +46,53 @@ campus-events-clubs-portal/
 
 Follow these steps to run the project locally.
 
-**Step 1: Install Node.js**
+### Step 1: Install Node.js
 
-Download and install Node.js from https://nodejs.org/
+Download and install Node.js from:
 
-**Step 2: Open the Project**
+https://nodejs.org/
 
-Open the project folder in VS Code.
+### Step 2: Clone the Repository
 
-**Step 3: Install Dependencies**
+```bash
+git clone YOUR_GITHUB_REPOSITORY_LINK
+```
 
-Run the following command in the terminal:
+### Step 3: Open the Project Folder
+
+```bash
+cd campus-events-clubs-portal
+```
+
+### Step 4: Install Dependencies
 
 ```bash
 npm install
 ```
 
-**Step 4: Start the Development Server**
+### Step 5: Start the Development Server
 
 ```bash
 npm run dev
 ```
 
-**Step 5: Open the Application**
+### Step 6: Open the Application
 
 Open the local URL displayed in your terminal, usually:
 
 ```text
 http://localhost:5173
 ```
+
+## Production Build
+
+To create a production-ready build, run:
+
+```bash
+npm run build
+```
+
+The generated production files will be available in the `dist` folder.
 
 ## Future Enhancements
 
@@ -89,10 +107,18 @@ http://localhost:5173
 
 **Project Name:** Campusly – Campus Events & Clubs Portal
 
+**Team:** Group 7
+
 **Project Type:** Front-End Web Development
 
 **Purpose:** To provide a digital platform for discovering campus events and connecting students with clubs and activities.
 
+## Note
+
+This project is a front-end prototype. Event and club information may use sample data. Backend integration and database functionality can be added in future versions.
+
 ---
+
+*Developed as a student group project.*
 
 
